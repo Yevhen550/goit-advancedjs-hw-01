@@ -167,16 +167,14 @@ address {
 /* #endregion */
 
 /* #region-1-Page */
-.container {
-}
+
 .list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
 }
-.item {
-}
+
 /* #endregion */
 
 /* #region Gallery */
