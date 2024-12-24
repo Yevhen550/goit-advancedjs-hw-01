@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Form</title>
+  </head>
+  <body class="body-form">
+    <div class="form-page">
+      <a href="index.html">
+        <button class="button-85" type="button">Go Home</button>
+      </a>
+
+      <form class="feedback-form" autocomplete="off">
+        <div class="modal-form-field">
+          <label class="modal-form-label" for="user-email">
+            Email
+            <input
+              class="modal-form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              autofocus
+            />
+          </label>
+        </div>
+        <div class="modal-form-field">
+          <label class="modal-form-label" for="user-comment">
+            Message
+            <textarea
+              class="modal-form-message modal-form-input"
+              name="user-comment"
+              id="user-comment"
+            ></textarea>
+          </label>
+        </div>
+        <button class="button-85" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- <script type="module" src="/src/js/1-gallery.js"></script> -->
+  </body>
+</html>
