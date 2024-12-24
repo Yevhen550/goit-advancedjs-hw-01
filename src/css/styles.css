@@ -20,7 +20,7 @@
 
   /* Animation */
   --transition-hover-focus: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transform-scale: scale(1.01);
+  --transform-scale: scale(1.03);
 }
 /* #endregion */
 
@@ -29,7 +29,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--cl-text-slate);
-  background-color: rgb(166, 171, 154);
+  background-color: #94a5d0;
 }
 
 h1,
@@ -90,6 +90,11 @@ address {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.button-85:hover,
+.button-85:focus {
+  transform: var(--transform-scale);
 }
 
 .button-85:before {
@@ -227,10 +232,6 @@ address {
 /* #endregion */
 
 /* #region-Form */
-
-.body-form {
-  background-color: #5c7ac6;
-}
 
 .form-page {
   display: flex;
