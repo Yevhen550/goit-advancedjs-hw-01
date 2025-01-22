@@ -14,4 +14,3 @@ function onFormInput(event) {
 
   localStorage.setItem('email', JSON.stringify(localStorData));
 }
-

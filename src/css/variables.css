@@ -1,0 +1,24 @@
+
+:root {
+  /* Colors */
+  --cl-primary-iris: #4d5ae5;
+  --cl-active-ocean: #404bbf;
+  --cl-dark-navy-blue: #2e2f42;
+  --cl-dark-navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --cl-success-green: #31d0aa;
+  --cl-text-slate: #434455;
+  --cl-subtle-text-light-slate: #8e8f99;
+  --cl-accent-cornflower: #e7e9fc;
+  --cl-light-cloud: #f4f4fd;
+  --cl-hero-gray: rgba(46, 47, 66, 0.7);
+  --cl-white-background: #ffffff;
+  --cl-modal-dairy: #fcfcfc;
+
+  /* Fonts */
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+
+  /* Animation */
+  --transition-hover-focus: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transform-scale: scale(1.03);
+}

@@ -1,0 +1,64 @@
+.form-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.feedback-form {
+  width: 408px;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #ffffff96;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal-form-field {
+  margin-bottom: 8px;
+}
+
+.modal-form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.modal-form-input,
+.modal-form-message {
+  font-family: Montserrat;
+  font-size: 16px;
+  padding: 16px;
+  width: 100%;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  color: rgb(26 30 102);
+  background-color: transparent;
+  border: 1px solid rgb(26 30 102);
+  outline: transparent;
+  transition: border-color var(--transition-hover-focus);
+}
+
+.modal-form-input:hover,
+.modal-form-input:focus {
+  border-color: rgba(12, 58, 222, 0.659);
+}
+
+.modal-form-message {
+  resize: none;
+  padding: 16px;
+  height: 80px;
+}
+
+.modal-form-textarea-box {
+  margin-bottom: 16px;
+}
