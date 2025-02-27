@@ -1,3 +1,5 @@
+import iziToast from 'izitoast';
+
 const formEl = document.querySelector('.feedback-form');
 
 let formData = {
@@ -40,7 +42,13 @@ function onFormSubmit(event) {
   event.preventDefault();
 
   if (!formData.email || !formData.message) {
-    alert('Fill please all fields');
+    iziToast.error({
+      title: 'Error',
+      message: 'Fill please all fields',
+      position: 'topRight',
+      progressBarColor: 'rgb(197, 9, 9)',
+      messageColor: 'rgb(36, 7, 7)',
+    });
     return;
   }
 
